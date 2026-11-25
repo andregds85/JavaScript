@@ -1,11 +1,10 @@
 <script>
-let valor,desconto,total;
-valor=Number(prompt("Digite um Valor :  "));
-desconto=(valor * 0.12);
-total=valor-desconto;
-alert("Valor : "+ valor);
-alert("Desconto: " + desconto);
-alert("Total com Desconto: " + total);
+let real,converte;
+const dolar=6.00;
+
+real=Number(prompt("Valor em Reais : "));
+converte=real/dolar;
+
+alert(converte.toFixed(2));
+
 </script>
-
-
